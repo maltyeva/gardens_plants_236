@@ -14,5 +14,6 @@
     <% end %>
   </div>
 </div>
+<%= link_to "Add a new plant!",  new_garden_plant_path(@garden), class: "btn btn-primary" %>
 <%= link_to 'Edit', edit_garden_path(@garden) %> |
 <%= link_to 'Back', gardens_path %>
